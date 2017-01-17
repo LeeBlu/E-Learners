@@ -9,5 +9,7 @@ namespace E_Learning.Models
     {
         public string name { get; set; }
         public string password { get; set; }
+        public virtual ICollection<Subject> subject { get; set; }
+
     }
 }
